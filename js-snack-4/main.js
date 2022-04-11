@@ -38,15 +38,14 @@ const people = [
     },
 ]
 
-
 const patente = people.map((person) => {
     if (person.eta < 18) {
         //console.log(`${person.nome} non puo guidare`);
-        return (`${person.nome} non puo guidare`)
+        return (`${person.nome + ' ' + person.cognome} non puo guidare`)
         
     } else {
         //console.log(`${person.nome} puo guidare`);
-        return (`${person.nome} puo guidare`)
+        return (`${person.nome + ' ' + person.cognome} puo guidare`)
     }
 });
 
