@@ -51,3 +51,6 @@ const patente = people.map((person) => {
 
 console.log(patente);
 
+
+
+

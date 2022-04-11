@@ -5,12 +5,8 @@ Es: ['grogu', 'MANDO', 'Luke'] =>  ['Grogu', 'Mando', 'Luke']
 */
 
 const nomi = ['arianna', 'LUCIA', 'Marco']
-const minuscolo = nomi.map((nome) => {
-    return nome.toLowerCase()
-})
-console.log(minuscolo);
 
-const maiuscola = minuscolo.map((maiusc)=> {
-    return maiusc.charAt(0).toUpperCase() + maiusc.slice(1)
+const maiuscola = nomi.map((maiusc)=> {
+    return maiusc.charAt().toUpperCase() + maiusc.slice(1).toLowerCase()
 })
 console.log(maiuscola);
